@@ -1,6 +1,56 @@
-# Vue 3 + TypeScript + Vite
+# To-Do List App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Overview
+
+### The challenge
+
+It is necessary to develop a list of tasks using Vuex, Vuex, Typescript, TailwindCss.
+Add adaptability.
+There should be functions for adding a task, deleting a task and marking completed tasks.
+
+### Screenshot
+
+![Screenshot_4](https://user-images.githubusercontent.com/75619295/219062816-c68dc34a-65d0-4dac-bf13-ddffb79c511d.png)
+
+### Links
+
+- Solution URL: (https://github.com/Shall-Fade/todo-list-app)
+- Live Site URL: (https://shall-fade.github.io/todo-list-app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- Grid
+- [TailwindCSS](https://tailwindcss.com) - CSS Framework
+- [Typescript](https://www.typescriptlang.org) - Strongly Typed Programming Language
+- [VUE](https://vuejs.org) - JS Framework
+- [Vite](https://vitejs.dev) - Frontend Tooling
+- [Vuex](https://vuex.vuejs.org) - State Management Library
+
+### What I learned
+
+I learned how to use typescript with the vue framework and practiced working with TailwindCSS.
+
+### Continued development
+
+In the future, you need to:
+
+- Add validation
+
+## Author
+
+- GitHub - [@Shall-Fade](https://github.com/Shall-Fade)
+- Frontend Mentor - [@Shall-Fade](https://www.frontendmentor.io/profile/Shall-Fade)
+- VK - [@Marat Chochaev](https://vk.com/0another0)
+- Telegram - [@Marat Chochaev](https://t.me/another_rn)
+- Instagram - [@marat.chochaev](https://www.instagram.com/marat.chochaev/)
+
+## Conclusion
+
+If you see any bugs in the code or want to share some advice, please contact me. I would be very grateful for any help or advice, as it will give me the opportunity to make fewer mistakes and improve my skills.
 
 ## Recommended IDE Setup
 
