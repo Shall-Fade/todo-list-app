@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-between rounded-[8px] border border-gray-400 bg-gray-500 p-[16px]"
+    class="flex w-full items-center justify-between rounded-[8px] border border-gray-400 bg-gray-500 p-[16px]"
   >
     <input
       v-model="taskData.isChecked"
@@ -9,7 +9,7 @@
     />
     <p
       :class="{ 'text-gray-300 line-through': taskData.isChecked }"
-      class="mr-[12px] w-full text-[14px] leading-[20px] text-gray-100"
+      class="mr-[12px] w-full break-all text-[14px] leading-[20px] text-gray-100"
     >
       <slot name="task"></slot>
     </p>
@@ -60,6 +60,7 @@ function removeTask() {
   for (let i = 0; i < tasks.value.length; i++) {
     if (tasks.value[i].id === props.taskData.id) {
       tasks.value.splice(i, 1);
+      store.commit("UPDATE_TASKS", tasks.value);
     }
   }
 }

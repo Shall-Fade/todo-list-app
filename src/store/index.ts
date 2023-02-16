@@ -1,4 +1,5 @@
 import { createStore } from "vuex";
+import createPersistedState from "vuex-persistedstate";
 import State from "../types/State";
 
 const store = createStore<State>({
@@ -9,6 +10,9 @@ const store = createStore<State>({
     ADD_TASK(state, task) {
       state.tasks.push(task);
     },
+    UPDATE_TASKS(state, tasks) {
+      state.tasks = tasks;
+    },
   },
   getters: {
     completeTasks(state) {
@@ -18,6 +22,7 @@ const store = createStore<State>({
       return state.tasks.length;
     },
   },
+  plugins: [createPersistedState()],
 });
 
 export default store;
